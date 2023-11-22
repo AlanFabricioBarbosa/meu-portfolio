@@ -27,7 +27,8 @@ export const Links = styled(Link)`
    text-transform: uppercase;
    text-decoration: none;
    color: #FFD700;
-   &:hover{
-         filter: brightness(1.7);
+   &:hover {
+      border-bottom: .1rem solid #0FF;
+      transition: 1s;
    }
 `

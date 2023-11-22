@@ -3,7 +3,7 @@ import { HeaderContainer, Links, ListContainer, Title } from "./styles";
 export default function Header() {
    return (
       <HeaderContainer>
-         <Title>Alan</Title>
+         <Title> &#60;Alan&#47;&#62;</Title>
          <nav>
             <ListContainer>
                <li>
