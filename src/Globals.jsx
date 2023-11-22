@@ -8,9 +8,12 @@ export const GlobalStyled = createGlobalStyle`
    padding: 0;
    box-sizing: border-box;
    text-decoration: none;
+   list-style: none;
 }
+
 body{
    font-size: 100%;
-   list-style-type: none;
+   background-color: #22292F;
+   color: #FFD700;
 }
 `

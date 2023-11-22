@@ -1,15 +1,38 @@
-import { Link } from "react-router-dom";
+import { HeaderContainer, Links, ListContainer, Title } from "./styles";
 
 export default function Header() {
    return (
-      <header>
+      <HeaderContainer>
+         <Title>Alan</Title>
          <nav>
-            <Link to="/">Inicio</Link>
-            <Link to="/about">Sobre Mim</Link>
-            <Link to="/education">Formação e Certificados</Link>
-            <Link to="/projects">Projetos</Link>
-            <Link to="/contact">Contato</Link>
+            <ListContainer>
+               <li>
+                  <Links to="/">
+                     Inicio
+                  </Links>
+               </li>
+               <li>
+                  <Links to="/about">
+                     Sobre Mim
+                  </Links>
+               </li>
+               <li>
+                  <Links to="/education">
+                     Formações
+                  </Links>
+               </li>
+               <li>
+                  <Links to="/projects">
+                     Projetos
+                  </Links>
+               </li>
+               <li>
+                  <Links to="/contact">
+                     Contato
+                  </Links>
+               </li>
+            </ListContainer>
          </nav>
-      </header>
+      </HeaderContainer>
    )
 }

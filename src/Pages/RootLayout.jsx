@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom"
 import Header from "../Components/Header"
+import Footer from "../Components/Footer"
 export default function RootLayout() {
    return (
       <>
          <Header/>
          <main>
-            <p>Esse é o layout principal. abaixo tem os conteudos da rotas</p>
             <Outlet/>
          </main>
+         <hr />
+         <Footer/>
       </>
    )
 }
