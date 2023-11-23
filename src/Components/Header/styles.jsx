@@ -7,13 +7,12 @@ export const HeaderContainer = styled.header`
    align-items: center;
    height: 7vh;
    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   
 `
 
 export const Title = styled.h1`
    font-size: 42px;
    font-family: 'Oswald', sans-serif;
-   font-style: italic;
-   letter-spacing: .2rem;
 `
 
 export const ListContainer = styled.ul`
@@ -26,6 +25,8 @@ export const Links = styled(Link)`
    font-size: 22px;
    text-transform: uppercase;
    text-decoration: none;
+   font-family: 'Raleway',sans-serif;
+   letter-spacing: .1rem;
    color: #FFD700;
    &:hover {
       border-bottom: .1rem solid #0FF;

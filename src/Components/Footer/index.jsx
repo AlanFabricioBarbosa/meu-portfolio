@@ -1,7 +1,9 @@
+import { FooterContainer } from "./styles";
+
 export default function Footer(){
    return (
-      <footer>
-         <p>Feito por Alan Fabrício</p>
-      </footer>
+      <FooterContainer>
+         <h3>&copy;2023 Alan Fabrício</h3>
+      </FooterContainer>
    )
 }
