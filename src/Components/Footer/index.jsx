@@ -1,7 +1,7 @@
 import { ExternalLinks, FooterContainer } from "./styles";
 
-import ImgGithub from "../../../public/icones/github-logo-bold.svg"
-import ImgLinkedin from "../../../public/icones/linkedin-logo-bold.svg"
+import ImgGithub from "../../assets/icones/github-logo-bold.svg"
+import ImgLinkedin from "../../assets/icones/linkedin-logo-bold.svg"
 
 export default function Footer(){
    return (
