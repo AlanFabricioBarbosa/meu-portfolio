@@ -2,32 +2,31 @@ import styled from "styled-components"
 
 export const HomeContainer = styled.section`
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: space-around;
-   height: 85vh;
 `
 
 export const WelcomeContainer = styled.section`
-   text-align: center;
-   width: 45vw;
-   height: 20vh;
+   display: flex;
+   align-items: center;
+   height: 70vh;
 
-   h2 {
-      font-size: 38px;
-      font-family: 'Raleway',sans-serif;
-      padding: 20px;
-   }
+   section {
+   width: 40vw;
+   height: 30vh;
 
-   p {
-      font-size: 26px;
-      font-family: 'Montserrat', sans-serif;
-   }
-`
-
-export const ExternalLinks = styled.div`
-      padding: 15px;
-
-      a {
-         margin-left: 25px;
+      h2 {
+         text-align: center;
+         font-size: 38px;
+         font-family: 'Raleway',sans-serif;
+         padding-bottom: 20px;
       }
+
+      p {
+         font-size: 24px;
+         font-family: 'Montserrat', sans-serif;
+         letter-spacing: .1rem;
+      }
+   }
 `

@@ -20,6 +20,13 @@ export const ListContainer = styled.ul`
    justify-content: space-evenly;
    align-items: center;
    width: 55vw;
+
+   li {
+      transition: transform 0.3s;
+      &:hover{
+         transform: scale(1.1);
+   }
+   }
 `
 export const Links = styled(Link)`
    font-size: 22px;
@@ -27,9 +34,16 @@ export const Links = styled(Link)`
    text-decoration: none;
    font-family: 'Raleway',sans-serif;
    letter-spacing: .1rem;
+   position: relative;
    color: #FFD700;
-   &:hover {
-      border-bottom: .1rem solid #0FF;
-      transition: 1s;
+
+   &:hover::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #007bff;
+      bottom: 0;
+      left: 0;
    }
 `

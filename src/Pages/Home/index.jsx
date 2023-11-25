@@ -1,45 +1,25 @@
-import GifPortfolio from "../../assets/gifPortfolio.gif"
-import { ExternalLinks, HomeContainer, WelcomeContainer } from "./styled"
-import ImgGithub from "../../assets/icones/github-logo-bold.svg"
-import ImgLinkedin from "../../assets/icones/linkedin-logo-bold.svg"
+import GifPortfolio from "../../../public/homeImg/gifPortfolio.gif"
+import CardSkilss from "../../Components/CardSkills"
+import {HomeContainer, WelcomeContainer } from "./styled"
 
 export default function Home() {
    return (
-      <>
-         <HomeContainer>
-            <WelcomeContainer>
+      <HomeContainer>
+         <WelcomeContainer style={{display: "flex"}}>
+            <section>
                <h2>Bem-vindo ao meu portfólio</h2>
                <p>
-                  Olá, eu sou Alan Fabrício, desenvolvedor web.
+               Olá, meu nome é Alan, tenho 25 anos e sou apaixonado por programação. Sou natural de Maceió, Alagoas. Convido você a dar uma olhada no meu portfólio, onde compartilho projetos e experiências que refletem meu comprometimento e entusiasmo pelo mundo da programação.
                </p>
-               <ExternalLinks>
-                     <a 
-                        href="https://github.com/AlanFabricioBarbosa" 
-                        target="_blanck" 
-                        rel="noreferrer">
-                        <img 
-                           src={ImgGithub}
-                           alt="Icone do Github"
-                        />
-                     </a>
-                     <a 
-                        href="https://www.linkedin.com/in/alanfabr%C3%ADciodev/" 
-                        target="_blank" 
-                        rel="noreferrer">
-                        <img 
-                           src={ImgLinkedin} 
-                           alt="Icone do Linkedin"
-                        />
-                     </a>
-                  </ExternalLinks>
-               </WelcomeContainer>
+            </section>
             <figure>
-               <img 
-                  src={GifPortfolio} 
-                  alt="GIF animado de um notebook abrindo e fechando."
-               />
+               <img
+               src={GifPortfolio} 
+               alt="GIF animado de um notebook abrindo e fechando."
+               /> 
             </figure>
-         </HomeContainer>
-      </>
+         </WelcomeContainer>
+         <CardSkilss/>
+      </HomeContainer>
    )
 }
