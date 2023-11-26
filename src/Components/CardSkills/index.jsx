@@ -1,9 +1,7 @@
-// import DataCard from '.././../data/skills'
 import DataCard from '../../data/skills.json'
 import { SkillContent, SkillsContainer, SkillsText } from './styles'
 
 export default function CardSkilss() {
-   //Bug nas imagens
    return(
       <>
          <SkillsText>
