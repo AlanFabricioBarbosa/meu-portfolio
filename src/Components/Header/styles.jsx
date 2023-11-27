@@ -25,7 +25,7 @@ export const ListContainer = styled.ul`
       transition: transform 0.3s;
       &:hover{
          transform: scale(1.1);
-   }
+      }
    }
 `
 export const Links = styled(Link)`
