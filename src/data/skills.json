@@ -2,49 +2,49 @@
    {
       "id":1,
       "title": "HTML", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/html.svg",
       "description": "Imagem da logo do HTML"
    },
    {
       "id":2,
       "title": "CSS", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/css.svg",
       "description": "Imagem da logo do CSS"
    },
    {
       "id":3,
       "title": "Javascript", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/javascript.svg",
       "description": "Imagem da logo do Javascript"
    },
    {
       "id":4,
       "title": "SASS", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/sass.svg",
       "description": "Imagem da logo do SASS"
    },
    {
       "id":5,
       "title": "ReactJs", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/react.svg",
       "description": "Imagem da logo do ReactJs"
    },
    {
       "id":6,
       "title": "Styled-Components", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/styled-components.svg",
       "description": "Imagem da logo do Styled-Components"
    },
    {
       "id":7,
       "title": "MySQL", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/icons8-mysql.svg",
       "description": "Imagem da logo do Mysql"
    },
    {
       "id":8,
       "title": "GIT", 
-      "img": "./skills.json",
+      "img": "../../public/assets/skills/git.svg",
       "description": "Imagem da logo do Git"
    }
 ]

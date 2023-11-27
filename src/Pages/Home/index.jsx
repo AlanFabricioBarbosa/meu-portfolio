@@ -1,4 +1,4 @@
-import GifPortfolio from "../../assets/homeImg/gifPortfolio.gif"
+import GifPortfolio from "../../../public/assets/homeImg/gifPortfolio.gif"
 import CardSkilss from "../../Components/CardSkills"
 import {HomeContainer, WelcomeContainer } from "./styled"
 

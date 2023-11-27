@@ -1,5 +1,5 @@
-import ImgWhatsApp from '.././../assets/icones/whatsapp-logo-thin.svg'
-import ImgGmail from '.././../assets/icones/envelope-simple-thin.svg'
+import ImgWhatsApp from '../../../public/assets/icones/whatsapp-logo-thin.svg'
+import ImgGmail from '../../../public/assets/icones/envelope-simple-thin.svg'
 import { ContactMeContainer, ContactTextContent, FigureBox, FigureContent } from './styles'
 
 export default function ContactMe() {
