@@ -2,7 +2,7 @@
    {
       "id":1,
       "title": "HTML", 
-      "img": "/src/assets/skills/html.svg",
+      "img": "./src/assets/skills/html.svg",
       "description": "Imagem da logo do HTML"
    },
    {
