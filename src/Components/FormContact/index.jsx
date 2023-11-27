@@ -33,24 +33,33 @@ export default function FormContact() {
    return (
       <>
          <form onSubmit={sendEmail}>
-               <input 
+            <label>
+               Nome:
+               <input
                   type="text"
                   placeholder="Digite seu nome"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                />
+            </label>
+            <label>
+               Email:
                <input 
                   type="text"
                   placeholder="Digite seu Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                />
+            </label>
+            <label>
+               Mensagem:
                <input 
                   type="text"
                   placeholder="Digite sua mensagem..."
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                />
+            </label>
                <input type="submit" value="Enviar"/>
          </form>
       </>

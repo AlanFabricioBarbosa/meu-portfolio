@@ -1,6 +1,6 @@
 import ImgWhatsApp from '.././../assets/icones/whatsapp-logo-thin.svg'
 import ImgGmail from '.././../assets/icones/envelope-simple-thin.svg'
-import { ContactMeContainer, ContactTextContent, FigureContent } from './styles'
+import { ContactMeContainer, ContactTextContent, FigureBox, FigureContent } from './styles'
 
 export default function ContactMe() {
    return (
@@ -11,17 +11,17 @@ export default function ContactMe() {
          </ContactTextContent>
          <FigureContent>
             <div>
-               <figure>
+               <FigureBox>
                   <img src={ImgWhatsApp} alt="Logo do WhatsApp" />
                   <figcaption>WhasApp</figcaption>
-               </figure>
+               </FigureBox>
                <p>+55 82 987377303</p>
             </div>
             <div>
-               <figure>
+               <FigureBox>
                   <img src={ImgGmail} alt="Logo do Gmail" />
                   <figcaption>Email</figcaption>
-               </figure>
+               </FigureBox>
                <p>alanfabriciobarbosa1@gmail.com</p>
             </div>
          </FigureContent>

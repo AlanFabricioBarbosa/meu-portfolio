@@ -28,15 +28,35 @@ export const FigureContent = styled.section`
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+   margin-top: 55px;
    width: 40vw;
-   height: 65vh;
-   border: 1px solid red;
+   height: 15vh;
 
-   figure {
+   div{
       display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 15vw;
-      border: 1px solid green;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 15px;
+      width: 18vw;
+      box-shadow: rgba(0, 255, 255, .4) 0px 0px 0px 2px, rgba(0, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      height: 10vh;
+      border-radius: 15px;
+   }
+
+   p {
+      font-family: 'Montserrat',sans-serif;
+      font-size: 18px;
    }
 `
+
+export const FigureBox = styled.figure`
+   display: flex;
+   margin-bottom: 10px;
+
+   figcaption {
+      font-size: 22px;
+      font-family: 'Raleway',sans-serif;
+      margin-left: 7px;
+   }
+`
+
