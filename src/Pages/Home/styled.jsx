@@ -16,17 +16,17 @@ export const WelcomeContainer = styled.section`
    width: 40vw;
    height: 30vh;
 
-      h2 {
-         text-align: center;
-         font-size: 38px;
-         font-family: 'Raleway',sans-serif;
-         padding-bottom: 20px;
-      }
+   h2 {
+      text-align: center;
+      font-size: 38px;
+      font-family: 'Raleway',sans-serif;
+      padding-bottom: 20px;
+   }
 
-      p {
-         font-size: 24px;
-         font-family: 'Montserrat', sans-serif;
-         letter-spacing: .1rem;
-      }
+   p {
+      font-size: 24px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: .1rem;
+   }
    }
 `

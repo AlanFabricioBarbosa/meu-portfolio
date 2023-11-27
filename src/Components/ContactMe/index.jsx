@@ -1,30 +1,30 @@
 import ImgWhatsApp from '../../../public/assets/icones/whatsapp-logo-thin.svg'
 import ImgGmail from '../../../public/assets/icones/envelope-simple-thin.svg'
-import { ContactMeContainer, ContactTextContent, FigureBox, FigureContent } from './styles'
+import * as S from './styles.jsx'
 
 export default function ContactMe() {
    return (
-      <ContactMeContainer>
-         <ContactTextContent>
+      <S.ContactMeContainer>
+         <S.ContactTextContent>
             <h2>Contato</h2>
             <p>Olá, estou aberto para conversas! Seja para discutir projetos, fazer perguntas ou apenas bater um papo, estou à disposição. Utilize o formulário abaixo e vamos iniciar uma conversa.</p>
-         </ContactTextContent>
-         <FigureContent>
+         </S.ContactTextContent>
+         <S.FigureContent>
             <div>
-               <FigureBox>
+               <S.FigureBox>
                   <img src={ImgWhatsApp} alt="Logo do WhatsApp" />
                   <figcaption>WhasApp</figcaption>
-               </FigureBox>
+               </S.FigureBox>
                <p>+55 82 987377303</p>
             </div>
             <div>
-               <FigureBox>
+               <S.FigureBox>
                   <img src={ImgGmail} alt="Logo do Gmail" />
                   <figcaption>Email</figcaption>
-               </FigureBox>
+               </S.FigureBox>
                <p>alanfabriciobarbosa1@gmail.com</p>
             </div>
-         </FigureContent>
-      </ContactMeContainer>
+         </S.FigureContent>
+      </S.ContactMeContainer>
    )
 }

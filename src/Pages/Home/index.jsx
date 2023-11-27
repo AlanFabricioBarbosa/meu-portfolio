@@ -1,11 +1,11 @@
 import GifPortfolio from "../../../public/assets/homeImg/gifPortfolio.gif"
 import CardSkilss from "../../Components/CardSkills"
-import {HomeContainer, WelcomeContainer } from "./styled"
+import * as S from './styled'
 
 export default function Home() {
    return (
-      <HomeContainer>
-         <WelcomeContainer style={{display: "flex"}}>
+      <S.HomeContainer>
+         <S.WelcomeContainer style={{display: "flex"}}>
             <section>
                <h2>Bem-vindo ao meu portfólio</h2>
                <p>
@@ -18,8 +18,8 @@ export default function Home() {
                alt="GIF animado de um notebook abrindo e fechando."
                /> 
             </figure>
-         </WelcomeContainer>
+         </S.WelcomeContainer>
          <CardSkilss/>
-      </HomeContainer>
+      </S.HomeContainer>
    )
 }

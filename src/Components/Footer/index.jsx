@@ -1,13 +1,12 @@
-import { ExternalLinks, FooterContainer } from "./styles";
-
+import * as S from './styles.jsx'
 import ImgGithub from "../../../public/assets/icones/github-logo-bold.svg"
 import ImgLinkedin from "../../../public/assets/icones/linkedin-logo-bold.svg"
 
 export default function Footer(){
    return (
-      <FooterContainer>
+      <S.FooterContainer>
          <h3>&copy;2023 Alan Fabrício</h3>
-         <ExternalLinks>
+         <S.ExternalLinks>
             <a 
                href="https://github.com/AlanFabricioBarbosa" 
                target="_blanck" 
@@ -26,7 +25,7 @@ export default function Footer(){
                alt="Icone do Linkedin"
                />
             </a>
-         </ExternalLinks>
-      </FooterContainer>
+         </S.ExternalLinks>
+      </S.FooterContainer>
    )
 }

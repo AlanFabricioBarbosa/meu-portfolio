@@ -1,13 +1,13 @@
 import ContactMe from "../../Components/ContactMe";
 import FormContact from "../../Components/FormContact";
-import { ContactContainer } from "./styles";
+import * as S from './styles.jsx'
 
 
 export default function Contact() {
    return (
-      <ContactContainer>
+      <S.ContactContainer>
          <ContactMe/>
          <FormContact/>
-      </ContactContainer>
+      </S.ContactContainer>
    )
 }

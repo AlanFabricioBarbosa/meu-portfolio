@@ -1,38 +1,38 @@
-import { HeaderContainer, Links, ListContainer, Title } from "./styles";
+import * as S from './styles.jsx'
 
 export default function Header() {
    return (
-      <HeaderContainer>
-         <Title>&#60;Alan&#47;&#62;</Title>
+      <S.HeaderContainer>
+         <S.Title>&#60;Alan&#47;&#62;</S.Title>
          <nav>
-            <ListContainer>
+            <S.ListContainer>
                <li>
-                  <Links to="/">
+                  <S.Links to="/">
                      Inicio
-                  </Links>
+                  </S.Links>
                </li>
                <li>
-                  <Links to="/about">
+                  <S.Links to="/about">
                      Sobre Mim
-                  </Links>
+                  </S.Links>
                </li>
                <li>
-                  <Links to="/education">
+                  <S.Links to="/education">
                      Formações
-                  </Links>
+                  </S.Links>
                </li>
                <li>
-                  <Links to="/projects">
+                  <S.Links to="/projects">
                      Projetos
-                  </Links>
+                  </S.Links>
                </li>
                <li>
-                  <Links to="/contact">
+                  <S.Links to="/contact">
                      Contato
-                  </Links>
+                  </S.Links>
                </li>
-            </ListContainer>
+            </S.ListContainer>
          </nav>
-      </HeaderContainer>
+      </S.HeaderContainer>
    )
 }

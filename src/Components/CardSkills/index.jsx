@@ -1,24 +1,22 @@
 import Data from '../../data/skills.json'
-import { SkillContent, SkillsContainer, SkillsText } from './styles'
-
+import * as S from './styles.jsx'
 export default function CardSkilss() {
-   //Bug nas imagens
    return(
       <>
-         <SkillsText>
+         <S.SkillsText>
             <h2>Minhas Habilidades</h2>
-         </SkillsText>
-         <SkillsContainer>
+         </S.SkillsText>
+         <S.SkillsContainer>
             {Data.map(i =>(
-               <SkillContent key={i.id}>
+               <S.SkillContent key={i.id}>
                   <img 
                      src={i.img} 
                      alt={i.description} 
                   />
                   <figcaption>{i.title}</figcaption>
-            </SkillContent>
+            </S.SkillContent>
          ))}
-      </SkillsContainer>
+      </S.SkillsContainer>
       </>
    )
 }
