@@ -1,49 +1,63 @@
-import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   height: 7vh;
-   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-   
-`
-
-export const Title = styled.h1`
-   font-size: 42px;
-   font-family: 'Oswald', sans-serif;
-`
-
-export const ListContainer = styled.ul`
+export const NavBarWrapp = styled.nav`
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-   width: 55vw;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 1rem 3rem;
+   position: relative;
 
-   li {
-      transition: transform 0.3s;
-      &:hover{
-         transform: scale(1.1);
-      }
+   @media(max-width:834px) {
+      flex-direction: column;
+      padding: 1rem;
+   }
+`;
+
+export const NavLinkWrapper = styled.section`
+   @media(max-width:834px){
+      display: ${(props) => (props.active ? "block" : "none")};
+      text-align: center;
+      padding: 2rem 0;
    }
 `
-export const Links = styled(Link)`
+
+export const StyledNavLink = styled(NavLink)`
+   color: #FFD700;
    font-size: 22px;
-   text-transform: uppercase;
-   text-decoration: none;
    font-family: 'Raleway',sans-serif;
    letter-spacing: .1rem;
-   position: relative;
-   color: #FFD700;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: 0.3s;
+   margin-left: 2rem;
 
-   &:hover::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      background-color: #00FFFF;
-      bottom: 0;
-      left: 0;
+   &.${(props) => props.activeClassname}{
+      color: #0FF;
+      border-bottom: 1px solid #0FF;
+   }
+
+   &:hover {
+      color: #0FF;
+   }
+
+   @media(max-width: 834px) {
+      display: block;
+      margin: 2rem auto;
+   }
+`
+
+export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+   display: none;
+   position: absolute;
+   right: 20px;
+   top: 21px;
+   font-size: 1.8rem;
+   cursor: pointer;
+
+   @media(max-width: 834px) {
+      display: block;
    }
 `

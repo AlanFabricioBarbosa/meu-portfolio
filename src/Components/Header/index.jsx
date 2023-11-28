@@ -1,38 +1,38 @@
-import * as S from './styles.jsx'
+import * as S from "./styles.jsx"
+import Title from "../Title";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function Header() {
+   const [active, setActive] = useState(false)
+   const links = [
+      {
+         page: "Inicio", href: "/"
+      },{
+         page: "Sobre Mim", href: "/about"
+      },{
+         page: "Projetos", href: "/projects"
+      },{
+         page: "Formações", href: "/education"
+      },{
+         page: "Contato", href: "/contact"
+      },
+   ]
+
    return (
-      <S.HeaderContainer>
-         <S.Title>&#60;Alan&#47;&#62;</S.Title>
-         <nav>
-            <S.ListContainer>
-               <li>
-                  <S.Links to="/">
-                     Inicio
-                  </S.Links>
-               </li>
-               <li>
-                  <S.Links to="/about">
-                     Sobre Mim
-                  </S.Links>
-               </li>
-               <li>
-                  <S.Links to="/education">
-                     Formações
-                  </S.Links>
-               </li>
-               <li>
-                  <S.Links to="/projects">
-                     Projetos
-                  </S.Links>
-               </li>
-               <li>
-                  <S.Links to="/contact">
-                     Contato
-                  </S.Links>
-               </li>
-            </S.ListContainer>
-         </nav>
-      </S.HeaderContainer>
+      <S.NavBarWrapp>
+         <Title/>
+         <S.StyledFontAwesomeIcon 
+            icon={faBars} 
+            onClick={() => setActive(!active)}
+         />
+         <S.NavLinkWrapper active={active}>
+            {links.map((link) => (
+               <S.StyledNavLink key={link.page} to={link.href} activeClassname="active">
+                  {link.page}
+               </S.StyledNavLink>
+            ))}
+         </S.NavLinkWrapper>
+      </S.NavBarWrapp>
    )
 }
