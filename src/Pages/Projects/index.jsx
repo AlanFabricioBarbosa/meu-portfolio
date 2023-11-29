@@ -1,59 +1,15 @@
+import CardProjects from "../../Components/CardProjects";
+
 export default function Projects() {
    return (
       <>
-         <h2>Proejetos</h2>
-         <p>Esse é minha rota para projetos</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim quia accusamus reiciendis alias, tenetur tempora voluptate dolores quis repudiandae debitis reprehenderit, delectus odit odio et atque perspiciatis cupiditate officia?</p>
+         <section>
+            <h2>Projetos</h2>
+            <p>
+               Bem-vindo à minha coleção de códigos e conquistas! Nesta seção, você terá um vislumbre dos projetos que desenvolvi com entusiasmo. Cada linha de código representa não apenas uma solução técnica, mas também um capítulo no meu constante aprendizado.
+            </p>
+         </section>
+         <CardProjects/>
       </>
    )
 }
