@@ -5,10 +5,10 @@ import BackToTopBTN from "../Components/BackToTopBTN"
 export default function RootLayout() {
    return (
       <>
-         <BackToTopBTN/>
          <Header/>
          <main>
             <Outlet/>
+            <BackToTopBTN/>
          </main>
          <Footer/>
       </>

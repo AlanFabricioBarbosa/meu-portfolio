@@ -5,7 +5,7 @@ export default function BackToTopBTN() {
       <>
          <ScrollToTop 
             smooth
-            color="#00FFFF"
+            color="#3BFA8C"
             width="20"
             top={65}
             style={{

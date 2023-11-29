@@ -25,22 +25,21 @@ export const NavLinkWrapper = styled.section`
 `
 
 export const StyledNavLink = styled(NavLink)`
-   color: #FFD700;
+   color: #3BFA8C ;
    font-size: 22px;
    font-family: 'Raleway',sans-serif;
    letter-spacing: .1rem;
    text-decoration: none;
    text-transform: uppercase;
-   transition: 0.3s;
+   transition: 0.2s;
    margin-left: 2rem;
 
    &.${(props) => props.activeClassname}{
-      color: #0FF;
-      border-bottom: 1px solid #0FF;
+      border-bottom: 1px solid #FFA500;
    }
 
    &:hover {
-      color: #0FF;
+      color: #FFA500;
    }
 
    @media(max-width: 834px) {

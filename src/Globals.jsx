@@ -14,6 +14,6 @@ export const GlobalStyled = createGlobalStyle`
 body{
    font-size: 100%;
    background-color: #22292F;
-   color: #FFD700;
+   color: #3BFA8C ;
 }
 `
