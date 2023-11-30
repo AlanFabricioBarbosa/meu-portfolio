@@ -35,40 +35,34 @@ export default function FormContact() {
 
    return (
       <S.FormContainer>
+         <S.FormMessage>Me escreva um Email</S.FormMessage>
          <S.FormContent onSubmit={sendEmail}>
-            <div>
-               <label>Nome:</label>
-               <input
-                  type="text"
-                  placeholder="Digite seu nome"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-               />
-            </div>
-            <div>
-            <label>Email:</label>
-            <input 
-                  type="text"
-                  placeholder="Digite seu Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-               />
-            </div>
-            <div>
-               <label>Mensagem:</label>
-               <input 
-                  type="text"
-                  placeholder="Digite sua mensagem..."
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-               />
-            </div>
-            <input type="submit" value="Enviar"/>
-         </S.FormContent>
-         <section>
-            {alertMessage && <p>{alertMessage}</p>}
-            {successMessage && <p>{successMessage}</p>}
-         </section>
+            <S.FormInputs
+               type="text"
+               placeholder="Digite seu nome"
+               value={name}
+               onChange={(e) => setName(e.target.value)}
+            />
+            <S.FormInputs 
+               type="text"
+               placeholder="Digite seu Email"
+               value={email}
+               onChange={(e) => setEmail(e.target.value)}
+            />
+            <S.FormInputsTextArea
+               type="text"
+               placeholder="Digite sua mensagem..."
+               value={message}
+               onChange={(e) => setMessage(e.target.value)}
+            />
+            <section>
+               {alertMessage && <p>{alertMessage}</p>}
+               {successMessage && <p>{successMessage}</p>}
+            </section>
+            <S.FormBtnSend>
+               <input type="submit" value="Enviar"/>
+            </S.FormBtnSend>
+            </S.FormContent>
       </S.FormContainer>
    )
 }

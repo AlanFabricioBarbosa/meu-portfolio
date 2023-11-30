@@ -4,7 +4,7 @@ export const ContactMeContainer = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 45vh;
+height: 35vh;
 margin-top: 60px;
 `
 
@@ -21,7 +21,7 @@ export const ContactTextContent = styled.section`
    p {
       font-size: 18px;
       font-family: 'Montserrat', sans-serif;
-   }
+   };
 `
 
 export const FigureContent = styled.section`
@@ -38,7 +38,7 @@ export const FigureContent = styled.section`
       justify-content: center;
       padding-left: 15px;
       width: 18vw;
-      box-shadow: rgba(0, 255, 255, .4) 0px 0px 0px 2px, rgba(0, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      box-shadow: rgba(59, 250, 140, .4) 0px 0px 0px 2px, rgba(59, 250, 140, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
       height: 10vh;
       border-radius: 15px;
    }
