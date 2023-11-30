@@ -13,7 +13,7 @@ export const GlobalStyled = createGlobalStyle`
 
 body{
    font-size: 100%;
-   background-color: #22292F;
+   background: linear-gradient(196deg, rgba(2,0,36,1) 13%, rgba(34,41,47,1) 57%, rgba(34,41,47,1) 70%);
    color: #3BFA8C;
 }
 `
