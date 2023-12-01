@@ -1,5 +1,7 @@
 import Data from '../../data/skills.json'
 import * as S from './styles.jsx'
+import 'animate.css'
+
 export default function CardSkilss() {
    return(
       <>
