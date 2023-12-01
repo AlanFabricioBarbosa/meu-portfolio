@@ -21,6 +21,7 @@ export const ContactTextContent = styled.section`
    p {
       font-size: 18px;
       font-family: 'Montserrat', sans-serif;
+      text-align: justify
    };
 `
 

@@ -27,6 +27,7 @@ export const WelcomeContainer = styled.section`
       font-size: 24px;
       font-family: 'Montserrat', sans-serif;
       letter-spacing: .1rem;
-   }
+      text-align: justify
+      }
    }
 `
