@@ -9,7 +9,7 @@ export default function CardSkilss() {
             <h2>Minhas Habilidades</h2>
          </S.SkillsText>
          <S.SkillsContainer>
-            {Data.map(i =>(
+            {Data.map((i) =>(
                <S.SkillContent key={i.id}>
                   <img 
                      src={i.img} 

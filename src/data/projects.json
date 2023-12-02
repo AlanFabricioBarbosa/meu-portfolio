@@ -11,5 +11,44 @@
       "deployUrl": "https://calculadora-vnw.vercel.app/",
       "deployImg": "/assets/icones/rocket-launch-bold.svg",
       "deployImgAlt": "Imagem de um Foguete"
+   },
+   {
+      "id": 1,
+      "img": "/assets/projects/calculadora.png",
+      "title": "Calculadora",
+      "descriptionText": "uma aplicação web simples e eficaz para realizar cálculos matemáticos de forma conveniente. Esta calculadora foi desenvolvida utilizando a biblioteca React, e oferece uma interface intuitiva para executar operações matemáticas básicas.",
+      "descriptionAlt": "Imagem de uma calculadora feita em react.",
+      "githubUrl": "https://github.com/AlanFabricioBarbosa/Calculadora_VNW",
+      "githubImg": "/assets/icones/github-logo-bold.svg",
+      "githubImgAlt": "Logo do Github",
+      "deployUrl": "https://calculadora-vnw.vercel.app/",
+      "deployImg": "/assets/icones/rocket-launch-bold.svg",
+      "deployImgAlt": "Imagem de um Foguete"
+   },
+   {
+      "id": 1,
+      "img": "/assets/projects/calculadora.png",
+      "title": "Calculadora",
+      "descriptionText": "uma aplicação web simples e eficaz para realizar cálculos matemáticos de forma conveniente. Esta calculadora foi desenvolvida utilizando a biblioteca React, e oferece uma interface intuitiva para executar operações matemáticas básicas.",
+      "descriptionAlt": "Imagem de uma calculadora feita em react.",
+      "githubUrl": "https://github.com/AlanFabricioBarbosa/Calculadora_VNW",
+      "githubImg": "/assets/icones/github-logo-bold.svg",
+      "githubImgAlt": "Logo do Github",
+      "deployUrl": "https://calculadora-vnw.vercel.app/",
+      "deployImg": "/assets/icones/rocket-launch-bold.svg",
+      "deployImgAlt": "Imagem de um Foguete"
+   },
+   {
+      "id": 1,
+      "img": "/assets/projects/calculadora.png",
+      "title": "Calculadora",
+      "descriptionText": "uma aplicação web simples e eficaz para realizar cálculos matemáticos de forma conveniente. Esta calculadora foi desenvolvida utilizando a biblioteca React, e oferece uma interface intuitiva para executar operações matemáticas básicas.",
+      "descriptionAlt": "Imagem de uma calculadora feita em react.",
+      "githubUrl": "https://github.com/AlanFabricioBarbosa/Calculadora_VNW",
+      "githubImg": "/assets/icones/github-logo-bold.svg",
+      "githubImgAlt": "Logo do Github",
+      "deployUrl": "https://calculadora-vnw.vercel.app/",
+      "deployImg": "/assets/icones/rocket-launch-bold.svg",
+      "deployImgAlt": "Imagem de um Foguete"
    }
 ]

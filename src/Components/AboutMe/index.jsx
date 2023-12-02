@@ -17,7 +17,7 @@ export default function AboutMe() {
                         rel="noreferrer"
                      >
                         <img src={ImgTest} alt="" />
-                        +55 (82) 98737-7303
+                        <p>@alanFabricio</p>
                      </a>
                      <a
                         href="https://github.com/AlanFabricioBarbosa" 
@@ -25,7 +25,7 @@ export default function AboutMe() {
                         rel="noreferrer"
                      >
                         <img src={ImgTest} alt="" />
-                        @AlanFabricio
+                        <p>@alanFabricio</p>
                      </a>
                      <a
                         href="https://github.com/AlanFabricioBarbosa" 
@@ -33,7 +33,7 @@ export default function AboutMe() {
                         rel="noreferrer"
                      >
                         <img src={ImgTest} alt="" />
-                        @AlanFabricio
+                        <p>@alanFabricio</p>
                      </a>
                   </nav>
                </S.AboutMeSocialInformation>

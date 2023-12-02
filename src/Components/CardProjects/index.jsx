@@ -1,39 +1,28 @@
 import Data from "../../data/projects.json"
+import * as S from "./styles.jsx"
 
 export default function CardProjects() {
    return (
-      <section>
+      <S.CardSection>
          {Data.map((i) => (
-            <section key={i.id}>
-               <figure>
-                  <img src={i.img} alt={i.descriptionAlt} />
-               </figure>
-               <section>
-                  <h3>{i.title}</h3>
-                  <p>{i.descriptionText}</p>
-                  <nav>
-                     <a 
-                        href={i.githubUrl} 
-                        target="_blanck" 
-                        rel="noreferrer">
-                           <img 
-                              src={i.githubImg} 
-                              alt={i.githubImgAlt}
-                           />
-                     </a>
-                     <a 
-                        href={i.deployUrl}
-                        target="_blanck" 
-                        rel="noreferrer">
-                           <img 
-                              src={i.deployImg} 
-                              alt={i.deployImgAlt}
-                           />
-                     </a>
-                  </nav>
-                  </section>
-            </section>
+            <S.ProjectCard key={i.id}>
+               <S.CardFigure>
+                  <S.CardImage src={i.img} alt={i.descriptionAlt} />
+               </S.CardFigure>
+               <S.CardText>
+                  <S.CardTitle>{i.title}</S.CardTitle>
+                  <S.CardDescription>{i.descriptionText}</S.CardDescription>
+                  <S.CardNav>
+                     <S.CardLink href={i.githubUrl} target="_blank" rel="noreferrer">
+                        <S.CardImageLink src={i.deployImg} alt={i.githubImgAlt} />
+                     </S.CardLink>
+                     <S.CardLink href={i.deployUrl} target="_blank" rel="noreferrer">
+                        <S.CardImageLink src={i.deployImg} alt={i.deployImgAlt} />
+                     </S.CardLink>
+                  </S.CardNav>
+               </S.CardText>
+            </S.ProjectCard>
          ))}
-      </section>
+      </S.CardSection>
    )
 }

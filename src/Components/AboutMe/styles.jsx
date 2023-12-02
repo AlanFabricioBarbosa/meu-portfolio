@@ -2,53 +2,49 @@ import styled from "styled-components";
 
 export const AboutMeContainer = styled.section`
    display: flex;
-   justify-content: center;
+   align-items: center;
    margin-top: 49px;
-   width: 60vw;
-   height: 70vh;
-   gap: 60px;
 `
 
 export const AboutMeContentSocial = styled.section`
    display: flex;
    flex-direction: column;
    align-items: center;
-   border: 1px solid red;
+   width: 35vw;
 `
 
 export const AboutMeFigure = styled.figure`
    img {
-      width: 400px;
-      border-radius: 50px;
+      width: 520px;
+      border-radius: 70px 0;
    }
 `
 
 export const AboutMeSocialInformation = styled.section`
-   nav{
+   nav {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      width: 20vw;
-      height: 17vh;
-      gap: 5px;
+      gap: 20px;
+      width: 27vw;
       font-size: 18px;
       border: 1px solid red;
    }
 
    a {
-      border: 1px solid blue;
-      height: 7vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 10vw;
    }
 `
 
 
 export const AboutMeText = styled.section`
-   border: 1px solid blue;
-
+   width: 35vw;
+   margin-top: 35px;
 
    h2 {
-      white-space: pre-line;
       font-size: 40px;
       line-height: 40px;
       margin-bottom: 30px;
@@ -56,6 +52,9 @@ export const AboutMeText = styled.section`
 
    p {
       margin: 20px 0;
+      text-align: justify;
+      font-size: 24px;
+      font-family: 'Montserrat', sans-serif;
       text-align: justify;
    }
 `
