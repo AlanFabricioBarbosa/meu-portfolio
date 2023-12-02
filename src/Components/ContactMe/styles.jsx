@@ -47,6 +47,7 @@ export const FigureContent = styled.section`
    p {
       font-family: 'Montserrat',sans-serif;
       font-size: 18px;
+      text-align: justify;
    }
 `
 

@@ -5,7 +5,7 @@ import 'animate.css'
 export default function Home() {
    return (
       <S.HomeContainer>
-         <S.WelcomeContainer style={{display: "flex"}}>
+         <S.WelcomeContainer>
             <section className="animate__animated animate__backInLeft">
                <h2>Bem-vindo ao meu portfólio</h2>
                <p>

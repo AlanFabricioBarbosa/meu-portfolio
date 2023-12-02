@@ -8,16 +8,19 @@ export const ProjectsContainer = styled.section`
 `
 
 export const ProjectsText = styled.section`
-   margin: 30px 0;
-   border: 1px solid red; 
+   width: 45vw;
+   margin: 40px 0;
 
    h2 {
       text-align: center;
+      font-size: 38px;
+      font-family: 'Raleway',sans-serif;
+      margin-bottom: 25px;
    }
 
    p {
-      width: 30vw;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 22px;   
       text-align: justify;
-      border: 1px solid blue;
    }
 `

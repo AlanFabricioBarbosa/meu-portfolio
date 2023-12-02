@@ -12,10 +12,11 @@ export const SkillsText = styled.section`
 `
 
 export const SkillsContainer = styled.section`
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-auto-rows: minmax(70px, auto);
-   gap: 3rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 60vw;
+   gap: 50px;
 `
 
 export const SkillContent = styled.figure`

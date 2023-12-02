@@ -20,26 +20,6 @@ export const AboutMeFigure = styled.figure`
    }
 `
 
-export const AboutMeSocialInformation = styled.section`
-   nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      width: 27vw;
-      font-size: 18px;
-      border: 1px solid red;
-   }
-
-   a {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      width: 10vw;
-   }
-`
-
-
 export const AboutMeText = styled.section`
    width: 35vw;
    margin-top: 35px;
