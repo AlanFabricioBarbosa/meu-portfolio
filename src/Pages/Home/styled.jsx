@@ -9,7 +9,7 @@ export const HomeContainer = styled.section`
 export const WelcomeContainer = styled.section`
    display: flex;
    align-items: center;
-   height: 70vh;
+   height: 50vh;
 
    section {
    width: 40vw;

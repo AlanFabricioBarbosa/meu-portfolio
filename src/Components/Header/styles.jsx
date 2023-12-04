@@ -35,11 +35,11 @@ export const StyledNavLink = styled(NavLink)`
    margin-left: 2rem;
 
    &.${(props) => props.activeClassname}{
-      border-bottom: 1px solid #34495e;
+      border-bottom: 1px solid #0FF;
    }
 
    &:hover {
-      color: #34495e;
+      color: #0FF;
    }
 
    @media(max-width: 834px) {

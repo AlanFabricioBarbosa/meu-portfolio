@@ -7,7 +7,7 @@ export default function CardProjects() {
          {Data.map((i) => (
             <S.ProjectCard key={i.id}>
                <S.CardFigure>
-                  <S.CardImage src={i.img} alt={i.descriptionAlt} />
+                  <S.CardImage src={i.img} alt={i.imgAlt} />
                </S.CardFigure>
                <S.CardText>
                   <S.CardTitle>{i.title}</S.CardTitle>

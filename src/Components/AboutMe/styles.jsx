@@ -28,6 +28,10 @@ export const AboutMeText = styled.section`
       font-size: 40px;
       line-height: 40px;
       margin-bottom: 30px;
+
+      span{
+         color: #0FF;
+      }
    }
 
    p {

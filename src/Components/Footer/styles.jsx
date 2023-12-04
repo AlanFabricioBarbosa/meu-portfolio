@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
    align-items: center;
    height: 9vh;
    margin-top: 60px;
-   border-top: 1px solid #3BFA8C;
+   border-top: 1px solid #ECF0F1;
 
    h3 {
       font-family: 'Raleway',sans-serif;

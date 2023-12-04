@@ -39,7 +39,7 @@ export const FigureContent = styled.section`
       justify-content: center;
       padding-left: 15px;
       width: 18vw;
-      box-shadow: rgba(59, 250, 140, .4) 0px 0px 0px 2px, rgba(59, 250, 140, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      box-shadow: rgba(236, 240, 241, 0.4) 0px 0px 0px 2px, rgba(236, 240, 241, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
       height: 10vh;
       border-radius: 15px;
    }

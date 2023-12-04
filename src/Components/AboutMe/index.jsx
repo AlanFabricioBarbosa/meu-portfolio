@@ -11,8 +11,7 @@ export default function AboutMe() {
             </S.AboutMeContentSocial>
          <S.AboutMeText>
             <h2>
-               Olá, 
-               sou Alan Fabrício
+               Olá, sou <span>Alan Fabrício</span>
             </h2>
             <p>
             Um entusiasta de tecnologia atualmente cursando Sistemas para Internet na Faculdade Anhanguera. Minha jornada acadêmica não é apenas uma busca por conhecimento, mas sim a construção de um caminho que me conduza a me tornar um profissional na área de tecnologia da informação.

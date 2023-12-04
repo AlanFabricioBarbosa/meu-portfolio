@@ -11,9 +11,9 @@ export const GlobalStyled = createGlobalStyle`
    list-style: none;
 }
 
-body{
-   font-size: 100%;
-   background-color: #2c3e50; 
-   color: #ecf0f1;
-}
+   body{
+      font-size: 100%;
+      background-color: #1B2835; 
+      color: #ecf0f1;
+   }
 `

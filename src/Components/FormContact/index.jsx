@@ -39,13 +39,13 @@ export default function FormContact() {
          <S.FormContent onSubmit={sendEmail}>
             <S.FormInputs
                type="text"
-               placeholder="Digite seu nome"
+               placeholder="Seu nome"
                value={name}
                onChange={(e) => setName(e.target.value)}
             />
             <S.FormInputs 
                type="text"
-               placeholder="Digite seu Email"
+               placeholder="Seu Email"
                value={email}
                onChange={(e) => setEmail(e.target.value)}
             />
@@ -56,11 +56,19 @@ export default function FormContact() {
                onChange={(e) => setMessage(e.target.value)}
             />
             <section>
-               {alertMessage && <p>{alertMessage}</p>}
-               {successMessage && <p>{successMessage}</p>}
+               {alertMessage && !successMessage && 
+                  <S.FormErrMessage>
+                     {alertMessage}
+                  </S.FormErrMessage>
+               }
+               {!alertMessage && successMessage && 
+                  <S.FormSuccessMessage>
+                     {successMessage}
+                  </S.FormSuccessMessage>
+               }
             </section>
             <S.FormBtnSend>
-               <input type="submit" value="Enviar"/>
+               <S.FormBtnSendInput type="submit" value="Enviar" />
             </S.FormBtnSend>
             </S.FormContent>
       </S.FormContainer>

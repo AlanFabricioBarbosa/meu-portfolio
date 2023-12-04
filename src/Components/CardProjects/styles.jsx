@@ -13,14 +13,16 @@ export const ProjectCard = styled.section`
    align-items: center;
    width: 70vw;
    height: 30vh;
-   border-top: 1px solid #FFA500;
+   border-top: 1px solid #ecf0f1;
 `
 
 export const CardFigure = styled.figure`
    margin-bottom: 15px;
+   text-align: start;
 `
 
 export const CardImage = styled.img`
+   width: 18vw;
    border-top-left-radius:  100px;
 `
 
